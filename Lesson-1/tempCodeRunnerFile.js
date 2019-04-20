@@ -9,6 +9,7 @@ let appData = {
   savings: false
 };
 
+
 let question1 = prompt("Введите обязательную статью расходов в этом месяце"),
   question2 = prompt("Во сколько обойдется?");
 
@@ -20,5 +21,3 @@ question1 = prompt("Во сколько обойдется?");
 appData.expenses[question1] = question2;
 
 console.log(appData);
-
-alert (appData.budget/30);
